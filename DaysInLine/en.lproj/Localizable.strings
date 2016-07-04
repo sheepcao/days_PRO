@@ -1,0 +1,289 @@
+/*
+ Localizable.strings
+ DaysInLine
+ 
+ Created by Eric Cao on 6/23/16.
+ Copyright © 2016 sheepcao. All rights reserved.
+ */
+
+"工作" = "Work";
+"生活" = "Life";
+
+"取消" = "Cancel";
+"确定" = "OK";
+
+"自动调整" = "Auto Adjust";
+"显示模式" = "Mode";
+"白天" = "DayTime";
+"夜间" = "Night";
+
+//////////////////////////////////////////////////////// side menu
+
+"同 步 | 备 份" = "Backup | Recover";
+"事项总览" = "Summary";
+"图表分解" = "Analyse";
+"近期走势" = "Trend";
+"设置" = "Setting";
+
+
+///////////////////////////////////////////////////////about view
+"导出日程" = "Data Export";
+"邀请好友" = "Share Me";
+"邮件反馈" = "Feedback";
+"前往评分" = "Rate Me";
+"去除广告" = "Remove AD";
+"联系方式" = "Contact";
+
+"购买（¥18 去除广告）" = "BUY($3 to remove AD)";
+"恢复购买" = "Restore";
+
+"意见反馈-历历在目" = "Feedback - DaysInLine";
+"感谢您使用历历在目，请留下您的宝贵意见，我们将与您取得联系!" = "Thank you for sharing your feedback.";
+"发送状态" = "Result";
+"Mail canceled" = "Mail canceled";
+"邮件保存成功" = "Saved";
+"邮件发送成功" = "Success";
+"邮件发送失败" = "Failed";
+"邮件尚未发送" = "Not Send";
+
+"失败" = "Fail";
+"您禁止了应用内购买权限,请到设置中开启" = "Please enable In App Purchase from system setting";
+"关闭" = "close";
+"无法连接App store!" = "Could not connect to App store";
+"恢复购买" = "Restore";
+"成功恢复购买" = "Successfully restored";
+"成功" = "Success";
+"成功购买" = "Successfully Purchased";
+"您没有购买记录" = "No purchase record";
+"恢复失败，请重新尝试" = "Restore failed,please try again.";
+
+///////////////////////////////////////////////////////share view
+
+"扫码下载" = "Scan to download";
+"或分享至" = "Or Share to";
+"历历在目" = "DaysInLine";
+"生活有条不紊,往昔历历在目" = "Trace your life easily. Make your time line clear.";
+"用户使用协议" = "Terms of Use";
+
+
+/////////////////////////////////////////////////////////log in
+"邮箱" = "Email";
+"密码" = "Password";
+"登  录" = "Log in";
+"创建新的用户" ="Sign Up";
+"忘记密码?" = "Forgot Password?";
+"请输入正确的邮箱格式" = "Please input a valid Email";
+"密码格式不正确" ="Please input a valid password";
+"密码长度6-20位并由大小写字母和数字组成" = "letters and numbers with length of 6-20";
+"请输入您的邮箱" = "Please input your email as username";
+"请输入密码" = "Please input your password";
+"登录成功" = "Success";
+"邮箱地址或密码错误" = "Incorrect username or password" ;
+
+/////////////////////////////////////////////////////////Back up
+
+"切换账号" = "Account";
+"首次备份" = "Initial Backup";
+"上次备份时间及设备" = "Last backup Info";
+"备份至云端" = "Back up";
+"同步到本地" = "Recover";
+"即将以当前设备的数据替换上次备份的数据" = "Replace the prior backup with your current data ?";
+"正在备份..." = "Uploading";
+"备份成功" = "Backup Success";
+"备份失败，请重试" = "Backup Failed, please try again";
+"您还未进行过备份，无法同步到本地。" = "You don't have any available bacukup.";
+"云端备份数据将覆盖本机当前数据，确认继续?" = "Your data will be replaced by your last backup,Continue?";
+"正在同步到本地..." = "Recovering";
+"同步失败，请稍后重试" = "Recover Failed, please try again";
+"成功同步到本机" = "Recover Success";
+
+
+//////////////////////////////////////////////////////////////register
+"邮箱(用户名)" = "Email";
+"*重要 : 用于登录及密码找回" = "Use email to find password";
+"设置密码(大小写字母或数字,6-20位)" = "Password(Letters or numbers at least 6-20)";
+"注  册" = "Register";
+"点击提交，您将同意并遵守历历在目的用户使用协议。点击阅读 >" = "By using DaysInLine you agree to this Terms of Use. check it here >";
+//"请输入正确的邮箱格式" = "Please input a valid Email";
+//"密码格式不正确" = "";
+//"密码长度6-20位并由大小写字母和数字组成" = "";
+"注册成功" = "Success";
+"您输入的注册邮箱已存在，换一个吧" = "Email already existed";
+"注册失败，请重试" = "Register failed, please try later.";
+
+/////////////////////////////////////////////////////////////forgot password
+
+"密码找回" = "Find Password";
+"请输入您的注册邮箱" = "Input your registered email";
+"提  交" = "Submit";
+"您的密码将会发送到您的注册邮箱" = "Password will be sent to your email";
+"请前往您的邮箱查看您的密码" = "Plesae check your email for the password";
+"您输入的注册邮箱不存在，请重新输入" = "Email not exist";
+"提交失败，请检查您的网络并重试" = "Submit failed, please check your network";
+
+//////////////////////////////////////////////////////////////////////trend
+"近期走势" = "Recently Trend";
+"本周投入" = "This Week";
+"日均投入" = "Daily";
+"环比增长" = "Increase";
+
+//////////////////////////////////////////////////////////category management
+"排序" = "Sort";
+"系统推荐" = "Recommend";
+"最新添加" = "Date Added";
+"使用最多" = "Mostly Use";
+"删减" = "Delete";
+"添加" = "Add New";
+"主 题 :" = "Theme : ";
+"请输入(限5字以内)" = "11 letters limit";
+"永久删除该类别?" = "Delete this category?";
+"是的" = "Yes";
+"不" = "No";
+"您输入的类名过长" = "Please limit your input length 11 letters";
+"+ 新分类" = "+ New";
+"非法输入" = "Invalid input";
+"您输入的类别已经存在" = "Already existed";
+////////////////////////////////////////////////////////////////////////category detail
+"%d 笔" = "%d items";
+"主题明细" = "Theme Detail";
+"开始时间: %@" = "Begin time: %@";
+"截止时间: %@" = "End time: %@";
+///////////////////////////////////////////////////////////////////add new
+"备 注" = "Notes";
+"忘记输入记账金额了吧,亲" = "Money amount required";
+"事项编辑" = "Edit";
+"新增事项" = "Add New";
+"请选择一个主题" = "Choose a theme";
+"开始时间应该早于结束时间" = "The begin time should be earlier than the end time";
+"确认删除照片?" = "Confirm to delete this photo?";
+"删除" = "Delete";
+" 主 题" = "Theme";
+"请选择" = "Tap to Choose";
+"开始时间" = "Begin time";
+"结束时间" = "End time";
+"文字备注" = "Notes";
+"请输入" = "Tap to input";
+"语音备注" = "Voice";
+"播放(长按重录)" = "Play(long press to record)";
+"按住 录音" = "Long press to record ";
+"+ 新主题" = "+ New";
+
+
+
+
+///////////////////////////////////////////////////////////////////check event
+"永久删除该事项?" = "Delete this item permanently?";
+"事项备注" = "Notes ";
+"主题" = "Theme ";
+"事项明细" = "Detail Info";
+"时段" = "Time";
+"点击 播放" = "Tap to play";
+"无" = "None";
+
+
+////////////////////////////////////////////////////////////////////////pie view
+"结束时间: %@" = "End Time: %@";
+"至" = "TO";
+"总投入\n%@" = "Total\n%@";
+
+
+///////////////////////////////////////////////////////////history
+"新事项" = "New Event";
+"目标推进" = "Goals Track";
+///////////////////////////////////////////////////////////////////////////pie chart
+"支 出\n%@" = "Expense\n%@";
+"收 入\n%@" = "Income\n%@";
+
+"日" = "";
+"工作:" = "Work:";
+"生活:" = "Life:";
+"开始时间:" = "Begin Time:";
+"请选择您的星座" = "请选择您的星座";
+
+//////////////////////////////////////////////////////////summary
+"导出" = "Export";
+
+
+////////////////////////////////////////////////////////export
+"数据导出-历历在目.csv" = "DaysInLine.csv";
+"数据导出-历历在目.xls" = "DaysInLine.xls";
+"日期" = "Date";
+"工作/生活" = "Type";
+"描述" = "Description";
+"导出数据" = "Data Export";
+"请选择以下任意格式将数据发送到您的邮箱" = "Choose a file format to export to your email";
+"导出CSV文件" = ".CSV";
+"导出XLS文件" = ".XLS";
+"数据导出-历历在目" = "Data Export - DaysInLine";
+"请查收附件中的数据文件" = "Please check your data in attachment.";
+"购 买" = "BUY";
+"失败" = "Fail";
+"您禁止了应用内购买权限,请到设置中开启" = "Please enable In App Purchase from system setting";
+"关闭" = "close";
+"无法连接App store!" = "Could not connect to App store";
+"6元购买永久使用数据导出功能" = "$1 to unlock data export FOREVER";
+"恢复购买" = "Restore";
+"成功恢复购买" = "Successfully restored";
+"成功" = "Success";
+"您没有购买记录" = "No purchase record";
+"恢复失败，请重新尝试" = "Restore failed,please try again.";
+
+///////////////////////////////////////////////////////////////////////calendar
+
+"日 程" = "Calendar";
+
+//////////////////////////////////////////////////////////////////////track
+
+"已达:" = "Finished:";
+"%.2f 小时" = "%.2f hour";
+"%d 次" = "%d times";
+"进阶:" = "Next step";
+"目标增量必须大于0" = "Adding number should larger than 0";
+"新目标" = "New Goal";
+"目标跟踪" = "Goals Track";
+
+//////////////////////////////////////////////////////////////////////goal Detail
+"目标编辑" = "Edit";
+"新增目标" = "New Goal";
+"不再提醒" = "Stop Reminding";
+"永久删除该目标?" = "Confirm to delete this goal?";
+"取消此提醒?" = "Stop reminding on this goal?";
+"该目标已经存在" = "Already exist";
+"请设置您的目标" = "Please set a goal name";
+"每%@" = "Every %@";
+"目标时间:" = "Time:";
+"目标次数:" = "Count:";
+"%ld次" = "%ld times";
+"%@小时" = "%@ h";
+" 目 标:" = "Goal:";
+" 提 醒" = "Remind me";
+"次数" = "Count";
+"时间" = "Time";
+"小 时" = "hours";
+"次 数" = "times";
+"提醒时间" = "Reminder Time";
+"提醒日期" = "Reminder Date";
+
+"目标不能为0" = "0 is not a goal.";
+"请选择提醒日期" = "Please set a reminder date";
+"是时候开始<%@>了" = " Time to %@";
+//////////////////////////////////////////////////////////Accomplishment
+"成就列表" = "Accomplishment";
+"共 %.2f 小时" = "Total:%.2f h";
+"共 %ld 次" = "Total:%ld times";
+"于 %@ 完成" = "Finished at %@";
+////////////////////////////////////////////////////////////////goal table cell
+"移至成就" = "Accomplish";
+"目标进阶" = "Next Step";
+////////////////////////////////////////////////////////////////Common Utility
+"%02d:%02d +%d天" = "%02d:%02d +%dday";
+"周一" = "Monday";
+"周二" = "Tuesday";
+"周三" = "Wednesday";
+"周四" = "Thursday";
+"周五" = "Friday";
+"周六" = "Saturday";
+"周日" = "Sunday";
+
+"%ld年" = "%ld";
+"%ld日" = "%ld";

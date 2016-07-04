@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="SourceHanSansCN-Normal.ttf">
+            <string>SourceHanSansCN-Normal</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="homeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="homeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ars-W5-pP8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hi3-Z2-1e0" userLabel="luckView">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="281"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fortune" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W2v-oR-FuS">
+                                        <rect key="frame" x="95" y="32" width="225" height="33"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="225" id="1jI-xG-50B"/>
+                                            <constraint firstAttribute="height" constant="33" id="Ee3-MZ-tnE"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
+                                        <color key="textColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Timeline" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2BQ-d1-Ohs">
+                                        <rect key="frame" x="95" y="32" width="225" height="33"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="33" id="3ZN-BI-mn2"/>
+                                            <constraint firstAttribute="width" constant="225" id="FM0-iy-fR6"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
+                                        <color key="textColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D98-Bk-Bhz">
+                                        <rect key="frame" x="362" y="31.5" width="46" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="46" id="6gf-h0-fsJ"/>
+                                            <constraint firstAttribute="height" constant="40" id="HuQ-yU-P7m"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="11" minY="9" maxX="11" maxY="9"/>
+                                        <state key="normal" image="menu.png">
+                                            <color key="titleColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="menuTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7bp-Qf-odU"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" tag="10" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="characterWrap" numberOfLines="14" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="0uu-gE-6ik" customClass="LuckyLabel">
+                                        <rect key="frame" x="25" y="80" width="364" height="201"/>
+                                        <fontDescription key="fontDescription" name="SourceHanSansCN-Normal" family="Source Han Sans CN" pointSize="15"/>
+                                        <color key="textColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TBJ-Td-NpU">
+                                        <rect key="frame" x="25" y="166" width="183" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="183" id="kj4-cV-C5F"/>
+                                            <constraint firstAttribute="height" constant="30" id="tfe-ni-Iqs"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                        <state key="normal" title="设置星座，随时掌握财运 &gt;">
+                                            <color key="titleColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="configConstellation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FjI-sC-hkI"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A0L-Be-Jme">
+                                        <rect key="frame" x="8" y="32" width="46" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="6zM-la-uO7"/>
+                                            <constraint firstAttribute="width" constant="46" id="UXT-Wa-yTr"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="12" minY="10" maxX="12" maxY="10"/>
+                                        <state key="normal" image="calendar.png">
+                                            <color key="titleColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="showCalendar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="49l-BF-imo"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9dH-fp-xIt">
+                                        <rect key="frame" x="55" y="30.5" width="46" height="43"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="46" id="Pyr-xv-WuT"/>
+                                            <constraint firstAttribute="height" constant="43" id="m2M-jh-OiD"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="12" minY="10" maxX="12" maxY="10"/>
+                                        <state key="normal" title="modes" image="mode.png">
+                                            <color key="titleColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="showModes:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ixs-tx-z5W"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="D98-Bk-Bhz" secondAttribute="trailing" constant="6" id="4wo-bY-cjJ"/>
+                                    <constraint firstItem="TBJ-Td-NpU" firstAttribute="centerY" secondItem="0uu-gE-6ik" secondAttribute="centerY" id="6hO-aB-NUh"/>
+                                    <constraint firstItem="0uu-gE-6ik" firstAttribute="centerX" secondItem="Hi3-Z2-1e0" secondAttribute="centerX" id="6kk-rD-2lj"/>
+                                    <constraint firstItem="2BQ-d1-Ohs" firstAttribute="centerX" secondItem="W2v-oR-FuS" secondAttribute="centerX" id="9tE-vV-aqM"/>
+                                    <constraint firstItem="0uu-gE-6ik" firstAttribute="leading" secondItem="Hi3-Z2-1e0" secondAttribute="leading" constant="25" id="ARJ-BG-Hg4"/>
+                                    <constraint firstItem="9dH-fp-xIt" firstAttribute="centerY" secondItem="A0L-Be-Jme" secondAttribute="centerY" id="Air-az-d9Z"/>
+                                    <constraint firstItem="D98-Bk-Bhz" firstAttribute="centerY" secondItem="W2v-oR-FuS" secondAttribute="centerY" constant="3" id="BJ7-8W-hrl"/>
+                                    <constraint firstItem="2BQ-d1-Ohs" firstAttribute="centerY" secondItem="W2v-oR-FuS" secondAttribute="centerY" id="J6a-8x-GfL"/>
+                                    <constraint firstItem="2BQ-d1-Ohs" firstAttribute="width" secondItem="W2v-oR-FuS" secondAttribute="width" id="Rgc-2b-fpz"/>
+                                    <constraint firstItem="0uu-gE-6ik" firstAttribute="top" secondItem="W2v-oR-FuS" secondAttribute="bottom" constant="15" id="T3B-aN-2Y0"/>
+                                    <constraint firstItem="TBJ-Td-NpU" firstAttribute="leading" secondItem="0uu-gE-6ik" secondAttribute="leading" id="ZUh-vJ-Ncw"/>
+                                    <constraint firstItem="9dH-fp-xIt" firstAttribute="leading" secondItem="A0L-Be-Jme" secondAttribute="trailing" constant="1" id="e6S-w7-K8W"/>
+                                    <constraint firstItem="W2v-oR-FuS" firstAttribute="centerX" secondItem="Hi3-Z2-1e0" secondAttribute="centerX" id="hl9-DW-toh"/>
+                                    <constraint firstAttribute="bottom" secondItem="0uu-gE-6ik" secondAttribute="bottom" id="qJl-fz-DxO"/>
+                                    <constraint firstItem="A0L-Be-Jme" firstAttribute="leading" secondItem="Hi3-Z2-1e0" secondAttribute="leading" constant="8" id="sVg-5U-OkB"/>
+                                    <constraint firstItem="2BQ-d1-Ohs" firstAttribute="height" secondItem="W2v-oR-FuS" secondAttribute="height" id="sez-K0-GL9"/>
+                                    <constraint firstItem="W2v-oR-FuS" firstAttribute="top" secondItem="Hi3-Z2-1e0" secondAttribute="top" constant="32" id="v2a-9B-2hO"/>
+                                    <constraint firstItem="A0L-Be-Jme" firstAttribute="centerY" secondItem="D98-Bk-Bhz" secondAttribute="centerY" id="wwA-q0-t3B"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1647058824" green="0.4941176471" blue="0.69411764710000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="Hi3-Z2-1e0" secondAttribute="trailing" constant="-20" id="NC8-cs-AJK"/>
+                            <constraint firstItem="Hi3-Z2-1e0" firstAttribute="leading" secondItem="Ars-W5-pP8" secondAttribute="leadingMargin" constant="-20" id="RDX-KR-OeH"/>
+                            <constraint firstItem="Hi3-Z2-1e0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="iX5-9n-Sw0"/>
+                            <constraint firstItem="Hi3-Z2-1e0" firstAttribute="height" secondItem="Ars-W5-pP8" secondAttribute="height" multiplier="0.382" id="twR-dh-kX7"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="TimelineText" destination="2BQ-d1-Ohs" id="Eg0-Nm-Fcc"/>
+                        <outlet property="constellationButton" destination="TBJ-Td-NpU" id="UJw-kh-222"/>
+                        <outlet property="luckView" destination="Hi3-Z2-1e0" id="7uW-uQ-c81"/>
+                        <outlet property="luckyText" destination="0uu-gE-6ik" id="psC-Xw-Rlu"/>
+                        <outlet property="titleTextLabel" destination="W2v-oR-FuS" id="BNH-4h-Zz3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="calendar.png" width="262" height="210"/>
+        <image name="menu.png" width="200" height="200"/>
+        <image name="mode.png" width="200" height="200"/>
+    </resources>
+</document>

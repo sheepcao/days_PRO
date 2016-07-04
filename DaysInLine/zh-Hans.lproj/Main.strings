@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "Timeline"; ObjectID = "2BQ-d1-Ohs"; */
+"2BQ-d1-Ohs.text" = "时间线";
+
+/* Class = "UIButton"; normalTitle = "modes"; ObjectID = "9dH-fp-xIt"; */
+"9dH-fp-xIt.normalTitle" = "模式";
+
+/* Class = "UIButton"; normalTitle = "设置星座，随时掌握财运 >"; ObjectID = "TBJ-Td-NpU"; */
+"TBJ-Td-NpU.normalTitle" = "设置星座，随时掌握财运 >";
+
+/* Class = "UILabel"; text = "Fortune"; ObjectID = "W2v-oR-FuS"; */
+"W2v-oR-FuS.text" = "本周运势";
